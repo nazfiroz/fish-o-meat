@@ -1,0 +1,100 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.fm-head{
+    font-size: 55px;
+    color: blue;
+    font-weight: 1500;
+
+}
+.fm-flex {
+  display: flex;
+  margin-bottom: 150px;
+}
+.fm-common {
+  width: 50%;
+  padding: 5px;
+}
+.fm-common img {
+  width: 80%;
+  margin: 40px;
+}
+.banner {
+  background-image: url(images/BG-2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+//.button {
+  text-decoration: none;
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  border-top: 2px solid #cccccc;
+  border-right: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  border-left: 2px solid #cccccc;
+}
+//.button{
+    border: 0;
+    border-radius: 0.25rem;
+    background: #0368c0;
+    color: white;
+    font-family: -system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 0.25rem;
+    cursor: pointer;
+      }
+      .button {
+        border-radius: 10px;
+        background-color: #050d81;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 13px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 45px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
